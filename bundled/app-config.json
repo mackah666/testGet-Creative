@@ -1,0 +1,44 @@
+{
+    "init": "menu",
+    "ios": {
+        "kill_app": "false",
+        "more_apps": "https://childrens-data.api.bbci.co.uk/apps/more-apps-page/more-apps.html?platform=ios&product=cbeebies&app=cbeebiesgetcreative",
+        "app_store": "https://itunes.apple.com/gb/app/1435609710",
+        "kill_app_message": "We're sorry. Get Creative is no longer available.",
+        "force_update_version": "0.0",
+        "force_update_version_message": "An update to Get Creative is required to continue",
+        "app_max_storage": 419430400
+    },
+    "android": {
+        "kill_app": "false",
+        "more_apps": "https://childrens-data.api.bbci.co.uk/apps/more-apps-page/more-apps.html?platform=android&product=cbeebies&app=cbeebiesgetcreative",
+        "app_store": "market://details?id=uk.co.bbc.cbeebiesgetcreative",
+        "kill_app_message": "We're sorry. Get Creative is no longer available.",
+        "force_update_version": "0.0",
+        "force_update_version_message": "An update to Get Creative is required to continue",
+        "app_max_storage": 419430400
+    },
+    "kindle": {
+        "kill_app": "false",
+        "more_apps": "https://childrens-data.api.bbci.co.uk/apps/more-apps-page/more-apps.html?platform=kindle&product=cbeebies&app=cbeebiesgetcreative",
+        "app_store": "https://www.amazon.com/gp/mas/dl/android?p=uk.co.bbc.cbeebiesgetcreative",
+        "kill_app_message": "We're sorry. Get Creative is no longer available.",
+        "force_update_version": "0.0",
+        "force_update_version_message": "An update to Get Creative is required to continue",
+        "app_max_storage": 419430400
+    },
+    "common": {
+        "privacy_policy": "https://www.bbc.co.uk/privacy/",
+        "terms_conditions": "https://www.bbc.co.uk/terms/",
+        "contact_us": "https://www.bbc.co.uk/cbeebies/grownups/faqs",
+        "more_apps": "https://childrens-data.api.bbci.co.uk/apps/more-apps-page/more-apps.html?platform=ios&product=cbeebies&app=cbeebiesgetcreative"
+    },
+    "freetimeoverrides": {
+        "privacy_policy": "https://www.bbc.co.uk/usingthebbc/privacy-policy/?nolinks=yes",
+        "terms_conditions": "https://www.bbc.co.uk/usingthebbc/terms-of-use/?nolinks=yes",
+        "contact_us": "cbeebiesinteractive@bbc.co.uk",
+        "more_apps": "https://childrens-data.api.bbci.co.uk/apps/more-apps-page/more-apps.html?platform=kindle&product=cbeebies&app=cbeebiesgetcreative&nolinks=true&amazon-freetime=true"
+    },
+    "configEndpoint": "https://push.api.bbci.co.uk/proxy/data/bbc-morph-childrens-apps-config/appName/cbeebies-get-creative/configType/{configId}",
+    "availablePackagesEndpoint": "https://push.api.bbci.co.uk/proxy/data/bbc-morph-childrens-apps-config/appName/cbeebies-get-creative/configType/available-packages"
+}

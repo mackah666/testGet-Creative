@@ -1,0 +1,112 @@
+{
+    "geometry": [
+        {
+            "file": "model/cloud.obj",
+            "start": 0,
+            "size": 1782
+        },
+        {
+            "file": "model/factory/cloud.obj",
+            "start": 1782,
+            "size": 1782
+        },
+        {
+            "file": "model/factory/f-airballoon.obj",
+            "start": 3564,
+            "size": 2262
+        },
+        {
+            "file": "model/factory/f-base.obj",
+            "start": 5826,
+            "size": 8616
+        },
+        {
+            "file": "model/factory/f-book.obj",
+            "start": 14442,
+            "size": 420
+        },
+        {
+            "file": "model/factory/f-carrousel.obj",
+            "start": 14862,
+            "size": 6240
+        },
+        {
+            "file": "model/factory/f-cogs.obj",
+            "start": 21102,
+            "size": 1242
+        },
+        {
+            "file": "model/factory/f-floating-flash.obj",
+            "start": 22344,
+            "size": 156
+        },
+        {
+            "file": "model/factory/f-floating-music1.obj",
+            "start": 22500,
+            "size": 372
+        },
+        {
+            "file": "model/factory/f-floating-music2.obj",
+            "start": 22872,
+            "size": 678
+        },
+        {
+            "file": "model/factory/f-floating-particle1.obj",
+            "start": 23550,
+            "size": 24
+        },
+        {
+            "file": "model/factory/f-floating-particle2.obj",
+            "start": 23574,
+            "size": 60
+        },
+        {
+            "file": "model/factory/f-floating-star.obj",
+            "start": 23634,
+            "size": 60
+        },
+        {
+            "file": "model/factory/f-floating-torus.obj",
+            "start": 23694,
+            "size": 450
+        },
+        {
+            "file": "model/factory/f-hat.obj",
+            "start": 24144,
+            "size": 462
+        },
+        {
+            "file": "model/factory/f-machine1.obj",
+            "start": 24606,
+            "size": 21324
+        },
+        {
+            "file": "model/factory/f-maintower.obj",
+            "start": 45930,
+            "size": 5076
+        },
+        {
+            "file": "model/factory/f-plane-body.obj",
+            "start": 51006,
+            "size": 3822
+        },
+        {
+            "file": "model/factory/f-plane-rotate.obj",
+            "start": 54828,
+            "size": 768
+        },
+        {
+            "file": "model/factory/f-plateform.obj",
+            "start": 55596,
+            "size": 360
+        },
+        {
+            "file": "model/factory/f-pylongalery.obj",
+            "start": 55956,
+            "size": 3072
+        }
+    ],
+    "size": 160928,
+    "indexSize": 59028,
+    "buffer": "batch-1.gb-buffer"
+}

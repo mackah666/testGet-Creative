@@ -1,0 +1,16 @@
+[
+    {
+		"packageId": "menu",
+		"localPath": "content/menu/",
+		"type": "experience",
+		"experience": {
+            "launch": "menu",
+            "experienceDir": "/",
+            "config" : {
+			}
+        },
+		"tags": [],
+		"dependencies": [],
+        "metadata": ""
+	}
+]

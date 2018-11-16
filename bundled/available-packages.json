@@ -1,0 +1,256 @@
+ [
+  {
+  "packageId": "challenge-play-puppets-go-jetters-can-you-make-a-puppet-show-about-a-geographic-adventure-201810151530",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "challenge",
+  "version": "1",
+  "dependencies": [],
+  "metadata": "challenge",
+  "tags": []
+  },
+  {
+  "packageId": "machine-magic-paint-go-jetters-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "magic-paint.go-jetters",
+  "tags": []
+  },
+  {
+  "packageId": "machine-play-puppets-hey-duggee-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "play-puppets.hey-duggee",
+  "tags": []
+  },
+  {
+  "packageId": "brand-go-jetters-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "menu.go-jetters",
+  "tags": []
+  },
+  {
+  "packageId": "challenge-play-puppets-hey-duggee-tell-a-story-about-an-exciting-day-in-the-squirrel-club-201810151530",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "challenge",
+  "version": "1",
+  "dependencies": [],
+  "metadata": "challenge",
+  "tags": []
+  },
+  {
+  "packageId": "machine-sound-doodles-go-jetters-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "sound-doodles.go-jetters",
+  "tags": []
+  },
+  {
+  "packageId": "challenge-sound-doodles-hey-duggee-can-you-make-a-song-about-your-favourite-shape-201810151530",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "challenge",
+  "version": "1",
+  "dependencies": [],
+  "metadata": "challenge",
+  "tags": []
+  },
+  {
+  "packageId": "sound-doodles",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "experience",
+  "version": "1.1.0",
+  "dependencies": [],
+  "metadata": "",
+  "tags": [],
+  "experience": {
+  "launch": "machine",
+  "experienceDir": "/",
+  "config": {}
+  }
+  },
+  {
+  "packageId": "machine-sound-doodles-hey-duggee-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "sound-doodles.hey-duggee",
+  "tags": []
+  },
+  {
+  "packageId": "challenge-terrific-toys-bitz-and-bob-can-you-create-a-new-friend-for-zip-and-pop-201810151530",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "challenge",
+  "version": "1",
+  "dependencies": [],
+  "metadata": "challenge",
+  "tags": []
+  },
+  {
+  "packageId": "machine-assets",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.2.1",
+  "dependencies": [],
+  "metadata": "",
+  "tags": []
+  },
+  {
+  "packageId": "machine-sound-doodles-bitz-and-bob-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "sound-doodles.bitz-and-bob",
+  "tags": []
+  },
+  {
+  "packageId": "terrific-toys",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "experience",
+  "version": "1.1.0",
+  "dependencies": [],
+  "metadata": "",
+  "tags": [],
+  "experience": {
+  "launch": "machine",
+  "experienceDir": "/",
+  "config": {}
+  }
+  },
+  {
+  "packageId": "machine-play-puppets-go-jetters-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "play-puppets.go-jetters",
+  "tags": []
+  },
+  {
+  "packageId": "machine-terrific-toys-bitz-and-bob-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "terrific-toys.bitz-and-bob",
+  "tags": []
+  },
+  {
+  "packageId": "machine-terrific-toys-hey-duggee-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "terrific-toys.hey-duggee",
+  "tags": []
+  },
+  {
+  "packageId": "brand-hey-duggee-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "menu.hey-duggee",
+  "tags": []
+  },
+  {
+  "packageId": "challenge-magic-paint-bitz-and-bob-draw-a-lovely-picture-of-your-best-friend-201810151530",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "challenge",
+  "version": "1",
+  "dependencies": [],
+  "metadata": "challenge",
+  "tags": []
+  },
+  {
+  "packageId": "play-puppets",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "experience",
+  "version": "1.1.0",
+  "dependencies": [],
+  "metadata": "",
+  "tags": [],
+  "experience": {
+  "launch": "machine",
+  "experienceDir": "/",
+  "config": {}
+  }
+  },
+  {
+  "packageId": "machine-magic-paint-hey-duggee-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "magic-paint.hey-duggee",
+  "tags": []
+  },
+  {
+  "packageId": "machine-terrific-toys-go-jetters-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "terrific-toys.go-jetters",
+  "tags": []
+  },
+  {
+  "packageId": "brand-bitz-and-bob-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "menu.bitz-and-bob",
+  "tags": []
+  },
+  {
+  "packageId": "magic-paint",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "experience",
+  "version": "1.1.0",
+  "dependencies": [],
+  "metadata": "",
+  "tags": [],
+  "experience": {
+  "launch": "machine",
+  "experienceDir": "/",
+  "config": {}
+  }
+  },
+  {
+  "packageId": "challenge-terrific-toys-go-jetters-can-you-create-a-toy-with-strong-arms-and-legs-201810151530",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "challenge",
+  "version": "1",
+  "dependencies": [],
+  "metadata": "challenge",
+  "tags": []
+  },
+  {
+  "packageId": "machine-play-puppets-bitz-and-bob-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "play-puppets.bitz-and-bob",
+  "tags": []
+  },
+  {
+  "packageId": "machine-magic-paint-bitz-and-bob-v1-201810081630",
+  "remoteUrl": "https://childrens-data.api.bbci.co.uk/apps/cbeebies-get-creative/",
+  "type": "content-pack",
+  "version": "1.0",
+  "dependencies": [],
+  "metadata": "magic-paint.bitz-and-bob",
+  "tags": []
+  }
+  ]

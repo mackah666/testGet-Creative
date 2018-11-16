@@ -1,0 +1,67 @@
+{
+    "geometry": [
+        {
+            "file": "factory/f-brush.obj",
+            "start": 0,
+            "size": 2250
+        },
+        {
+            "file": "factory/f-cactus.obj",
+            "start": 2250,
+            "size": 5694
+        },
+        {
+            "file": "factory/f-drums.obj",
+            "start": 7944,
+            "size": 3708
+        },
+        {
+            "file": "factory/f-flag.obj",
+            "start": 11652,
+            "size": 756
+        },
+        {
+            "file": "factory/f-flower.obj",
+            "start": 12408,
+            "size": 2580
+        },
+        {
+            "file": "factory/f-machine2.obj",
+            "start": 14988,
+            "size": 2064
+        },
+        {
+            "file": "factory/f-pen.obj",
+            "start": 17052,
+            "size": 432
+        },
+        {
+            "file": "factory/f-rainbow.obj",
+            "start": 17484,
+            "size": 8352
+        },
+        {
+            "file": "factory/f-tower.obj",
+            "start": 25836,
+            "size": 6744
+        },
+        {
+            "file": "factory/f-tube.obj",
+            "start": 32580,
+            "size": 810
+        },
+        {
+            "file": "factory/f-tube2.obj",
+            "start": 33390,
+            "size": 1248
+        },
+        {
+            "file": "factory/f-tube3.obj",
+            "start": 34638,
+            "size": 2448
+        }
+    ],
+    "size": 77656,
+    "indexSize": 37086,
+    "buffer": "batch-1.gb-buffer"
+}

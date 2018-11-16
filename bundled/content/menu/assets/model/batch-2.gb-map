@@ -1,0 +1,127 @@
+{
+    "geometry": [
+        {
+            "file": "model/factory/f-track.obj",
+            "start": 0,
+            "size": 30240
+        },
+        {
+            "file": "model/factory/f-trumpet.obj",
+            "start": 30240,
+            "size": 4740
+        },
+        {
+            "file": "model/factory/f-tube4.obj",
+            "start": 34980,
+            "size": 720
+        },
+        {
+            "file": "model/factory/f-tube5.obj",
+            "start": 35700,
+            "size": 720
+        },
+        {
+            "file": "model/gallery-cylinder.obj",
+            "start": 36420,
+            "size": 1920
+        },
+        {
+            "file": "model/jackbox-box.obj",
+            "start": 38340,
+            "size": 372
+        },
+        {
+            "file": "model/jackbox-left-top.obj",
+            "start": 38712,
+            "size": 84
+        },
+        {
+            "file": "model/jackbox-popup.obj",
+            "start": 38796,
+            "size": 612
+        },
+        {
+            "file": "model/jackbox-right-top.obj",
+            "start": 39408,
+            "size": 84
+        },
+        {
+            "file": "model/particles/lighting.obj",
+            "start": 39492,
+            "size": 156
+        },
+        {
+            "file": "model/particles/music-a.obj",
+            "start": 39648,
+            "size": 792
+        },
+        {
+            "file": "model/particles/music-b.obj",
+            "start": 40440,
+            "size": 432
+        },
+        {
+            "file": "model/particles/pen.obj",
+            "start": 40872,
+            "size": 180
+        },
+        {
+            "file": "model/particles/shape-a.obj",
+            "start": 41052,
+            "size": 24
+        },
+        {
+            "file": "model/particles/shape-b.obj",
+            "start": 41076,
+            "size": 60
+        },
+        {
+            "file": "model/particles/star.obj",
+            "start": 41136,
+            "size": 60
+        },
+        {
+            "file": "model/particles/tore.obj",
+            "start": 41196,
+            "size": 450
+        },
+        {
+            "file": "model/quad.obj",
+            "start": 41646,
+            "size": 6
+        },
+        {
+            "file": "model/sphere.obj",
+            "start": 41652,
+            "size": 1584
+        },
+        {
+            "file": "model/track1.obj",
+            "start": 43236,
+            "size": 2628
+        },
+        {
+            "file": "model/track2.obj",
+            "start": 45864,
+            "size": 4188
+        },
+        {
+            "file": "model/track3.obj",
+            "start": 50052,
+            "size": 3984
+        },
+        {
+            "file": "model/wagon.obj",
+            "start": 54036,
+            "size": 492
+        },
+        {
+            "file": "model/wheel.obj",
+            "start": 54528,
+            "size": 540
+        }
+    ],
+    "size": 184152,
+    "indexSize": 55068,
+    "buffer": "batch-2.gb-buffer"
+}

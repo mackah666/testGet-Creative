@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover" />
+
+
+    <link rel="icon" href="assets/favicons/favicon.png" type="image/png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" href="images/touch-icon-57x57.png">
+
+    <meta name="description" content="">
+
+    <title>goodboy™ — starter</title>
+</head>
+
+<body>
+
+	<!-- <script src="http://static.test.bbci.co.uk/playpen/1.2.6/script/require/require.js"></script> -->
+	<script src="require.js"></script>
+	<div id="og-game-holder"></div>
+
+	<div class="input-container">
+
+	</div>
+
+
+	<script>
+
+	    (function(){
+	        window.og = {
+	            gid: "countdown-test",
+	            gameDir: "",
+	            gameContainerId: "og-game-holder",
+	            isFullScreen: window.self === window.top,
+	            exitGameUrl: "http://bbc.co.uk/",
+	            environment: "test",
+	            embedVars: {
+	                statsCounterName: "testCounterName",
+	                statsAppName: "TestAppName"
+	            }
+	        };
+
+	        console.warn("Using mocked bbccookies");
+	        bbccookies = {
+	            isAllowed: function() {
+	                return true;
+	            },
+
+	            cookiesEnabled: function() {
+	                return true;
+	            },
+
+	            set: function() {
+	            },
+
+	            get: function() {
+	                return "";
+	                // set this to force audience segment
+	                // return "ckns_mandolin_setSegments={'hiScores':'yes'};";
+	            }
+	        };
+
+	        requirejs.config({
+              waitSeconds:0,
+	            paths: {
+	                "Game": "game",
+	                "echo": "http://static.bbci.co.uk/nkdata/echoclient/2.0.0/sharedmodules/echo"
+	            }
+	        });
+
+	        window.ASSET_URL = './content/menu/assets/';
+	        require(["./content/menu/web-menu"], function(menuApplication) {
+
+	        	console.log('----')
+
+	        });
+
+	    })();
+	</script>
+<script type="text/javascript" src="/content/menu/application.js"></script></body>
+
+</html>
