@@ -86,7 +86,7 @@ pipeline {
                         // remove developer distrubution provisioning profile which might have been left over by releasepipeline.groovy
                         sh "find \$HOME/Library/MobileDevice/Provisioning\\ Profiles -print0 | xargs -0 grep -wl 'BBC CBBC Pick n Mix Development' | sed 's/.*/\"&\"/' | xargs rm"
 
-                        sh 'xcodebuild -workspace "HTML App Wrapper.xcworkspace" -scheme "Get Creative Development" build archive -sdk iphoneos -archivePath "./build/goExplore.xcarchive"'
+                        sh 'xcodebuild -workspace "HTML App Wrapper.xcworkspace" -scheme "Get Creative Development" build archive -sdk iphoneos -archivePath "./build/getCreative.xcarchive"'
                         sh 'xcodebuild -exportArchive -archivePath "./build/getCreative.xcarchive" -exportOptionsPlist "./dev_jenkins_export.plist" -exportPath "./build/"'
                     }
                 }
