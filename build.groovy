@@ -1,4 +1,4 @@
-
+/* comment */
 pipeline {
     agent any
     stages {      
