@@ -93,6 +93,19 @@ pipeline {
             }
         }
 
+        stage ('Zip DSYM Archive') {
+            steps {
+                dir('ios/build/getCreative.xcarchive') {
+                            sh 'ls -al'
+                            // // sh 'echo test > archive/test.txt'
+                            zip zipFile: 'getCreative-dSYMs.zip', archive: true, dir: 'dSYMs', glob: '**/**' 
+                            archiveArtifacts artifacts: 'getCreative-dSYMs.zip', fingerprint: true
+                            
+                }
+
+            }
+        }
+
 
         stage('Publish Get Creative IOS to Artifactory') {
             steps {
