@@ -170,6 +170,10 @@ def publishIOSAppToArtifactory() {
              {
                  "pattern": "*.ipa",
                  "target": "getCreative/develop/ios/${timestamp}/"
+             },
+             {
+                 "pattern": "getCreative.xcarchive/*-dSYMs.zip",
+                 "target": "getCreative/develop/ios/${timestamp}/"
              }
          ]
     }"""
