@@ -1,4 +1,10 @@
 /* comment */
+@Library("devops-groovy-libs")_
+ /* comment */
+def branchNameGlobal = ""
+def fullSemanticVersionGlobal = ""
+def appNameGlobal = "getCreative"
+
 pipeline {
     agent any
     stages {      
@@ -8,7 +14,18 @@ pipeline {
                 script{
 
                    currentBuild.displayName="" 
-                   currentBuild.displayName=sh returnStdout: true, script: 'gitversion /showvariable FullSemVer'
+                   fullSemanticVersionGlobal = sh(returnStdout: true, script: 'gitversion /showvariable FullSemVer').trim()
+                   currentBuild.displayName = fullSemanticVersionGlobal
+            
+                }
+            }
+        }
+
+        stage('Set Branch Name') {
+            steps {
+                script {
+                    branchNameGlobal = sh(returnStdout: true, script: 'gitversion /showvariable BranchName').trim().minus("origin/")
+                    println "Branch name is $branchNameGlobal"
                 }
             }
         }
@@ -103,7 +120,8 @@ pipeline {
             steps {
                 dir('android') {
                     echo "Publishing to Artifactory"
-                    publishAndroidAppToArtifactory()              
+                    publishAppToArtifactory("android", branchNameGlobal, fullSemanticVersionGlobal, appNameGlobal)
+                    //publishAndroidAppToArtifactory()              
                 }
             }
         } 
@@ -141,7 +159,7 @@ pipeline {
             steps {
                 dir('ios/build') {
                     echo "Publishing to Artifactory"
-                    publishIOSAppToArtifactory()             
+                    publishAppToArtifactory("ios", branchNameGlobal, fullSemanticVersionGlobal, appNameGlobal)              
                 }
             }
         } 
@@ -167,58 +185,3 @@ pipeline {
     }
 }
 
-
-@NonCPS
-def publishAndroidAppToArtifactory() {
-
-    def server = Artifactory.newServer url: 'http://localhost:8081/artifactory', username: 'Jenkins', password: 't@llHeart38'
-    def now = new Date()
-    def timestamp = now.toTimestamp()
-    println "${timestamp}"
-    def uploadSpec = """{
-         "files": [
-             {
-                 "pattern": "app/build/outputs/apk/*",
-                 "target": "getCreative/develop/android/${timestamp}/"
-             }
-         ]
-    }"""
-
-    server.upload(uploadSpec)
-    
-}
-
-@NonCPS
-def publishIOSAppToArtifactory() {
-
-    def server1 = Artifactory.newServer url: 'http://localhost:8081/artifactory', username: 'Jenkins', password: 't@llHeart38'
-    def now = new Date()
-    def timestamp = now.toTimestamp()
-    println "${timestamp}"
-    def uploadiosSpec = """{
-         "files": [
-             {
-                 "pattern": "*.ipa",
-                 "target": "getCreative/develop/ios/${timestamp}/"
-             },
-             {
-                 "pattern": "getCreative.xcarchive/*-dSYMs.zip",
-                 "target": "getCreative/develop/ios/${timestamp}/"
-             }
-         ]
-    }"""
-
-/* Just adding a comment */
-    server1.upload(uploadiosSpec)
-    
-}
-
-/*Just adding comments to trigger build with new build version*/
-@NonCPS
-def testpublishToArtifactory() {
-
-    def server = Artifactory.newServer url: 'http://localhost:8081/artifactory', username: 'Jenkins', password: 't@llHeart38'
-
-    
-    
-}
