@@ -20,13 +20,36 @@ pipeline {
             }
         }
         
-        stage('Update Submodule') {
-            steps {
+        // stage('Update Submodule') {
+        //     steps {
                 
-                sh 'git submodule update --init --recursive --'
-            } 
+        //         sh 'git submodule update --init --recursive --'
+        //     } 
+        // }
+        stage('Update Submodule'){
+            parallel{
+                stage('Udate IOS'){
+                    steps{
+                        dir('ios'){
+                           sh 'git submodule update --init --recursive --' 
+                        }
+                    }
+
+                }
+                stage('Udate Android'){
+                    steps{
+                        dir('android'){
+                           sh 'git submodule update --init --recursive --' 
+                        }
+                    }
+
+                }
+            }
         }
-        
+
+
+
+
        stage('Npm Install-Android') {
             steps {
                 dir('android') {
