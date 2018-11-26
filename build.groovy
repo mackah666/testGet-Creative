@@ -48,9 +48,9 @@ pipeline {
         }
 
 
-
-
-       stage('Npm Install-Android') {
+       stage('Npm Install'){
+        parallel{
+            stage('Npm Install-Android') {
             steps {
                 dir('android') {
                     echo 'Install npm and babel'
@@ -61,16 +61,23 @@ pipeline {
             }
         }
 
-        stage('Npm Install-IOS') {
-            steps {
-                dir('ios') {
-                    echo 'Install npm and babel'
-                    sh 'git submodule foreach npm install'
-                    sh 'git submodule foreach npm run babel'
+            stage('Npm Install-IOS') {
+                steps {
+                    dir('ios') {
+                        echo 'Install npm and babel'
+                        sh 'git submodule foreach npm install'
+                        sh 'git submodule foreach npm run babel'
 
+                    }
                 }
             }
+
         }
+       
+       }
+
+
+       
 
         stage('Copy bundled game') {
             steps {
