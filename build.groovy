@@ -1,5 +1,5 @@
 /* comment */
-@Library("devops-groovy-libs")_
+@Library("devops-groovy-libs") _
  /* comment */
 def branchNameGlobal = ""
 def fullSemanticVersionGlobal = ""
@@ -120,8 +120,9 @@ pipeline {
             steps {
                 dir('android') {
                     echo "Publishing to Artifactory"
-                    publishAppToArtifactory("android", branchNameGlobal, fullSemanticVersionGlobal, appNameGlobal)
-                    //publishAndroidAppToArtifactory()              
+                    script {
+                        utils.publish("android", branchNameGlobal, fullSemanticVersionGlobal, appNameGlobal)
+                    }
                 }
             }
         } 
@@ -159,7 +160,9 @@ pipeline {
             steps {
                 dir('ios/build') {
                     echo "Publishing to Artifactory"
-                    publishAppToArtifactory("ios", branchNameGlobal, fullSemanticVersionGlobal, appNameGlobal)              
+                    script {
+                        utils.publish("ios", branchNameGlobal, fullSemanticVersionGlobal, appNameGlobal)
+                    }
                 }
             }
         } 
