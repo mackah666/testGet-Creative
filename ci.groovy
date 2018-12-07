@@ -3,12 +3,13 @@
 buildPipeline {
     artifactory = "getCreative"
     android = [
-        bundled   : "getCreative",
+        bundled   : "android/app/src/getCreative/assets/bundled",
+        game      : "getCreative",
         store     : "normal",
         buildType : "debug"
     ]
     ios = [
-        bundled   : "Get Creative",
+        bundled   : "ios/Games/Get Creative/bundled",
         archive   : "getCreative",
         scheme    : "Get Creative Development"
     ]
