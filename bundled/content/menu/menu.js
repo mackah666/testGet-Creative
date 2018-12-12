@@ -175,12 +175,6 @@ define(['pnm-library/gmi-mobile',
          * tap to show wifi status
          */
 		var DEBUG = false;
-
-		if(window.gmi.experiences.getParams().machineData)
-		{
-			DEBUG = false;
-		}
-
         
 
 		if(DEBUG)
