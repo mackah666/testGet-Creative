@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>teamID</key>
+	<string>N53624Z834</string>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>compileBitcode</key>
+	<false/>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>uk.co.bbc.cbeebiesgetcreative</key>
+		<string>BBC Enterprise Profile</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iPhone Distribution: MEDIA APPLICATIONS TECHNOLOGIES LTD</string>
+</dict>
+</plist>
