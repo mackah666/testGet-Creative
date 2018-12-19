@@ -1,4 +1,4 @@
-@Library("devops-groovy-libs")_
+@Library("devops-groovy-libs-dev")_
 
 deploymentPipeline {
    // These values are variable
@@ -20,6 +20,7 @@ deploymentPipeline {
    ios = [
        bundled   : "ios/Games/Get Creative/bundled",
        archive   : "getCreative",
-       scheme    : "Get Creative UAT"
+       scheme    : "Get Creative UAT",
+       hockeyAppId: "36cbc7c220844881bbe42d7a21fb1609"
    ]
 }
