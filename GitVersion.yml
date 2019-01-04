@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 next-version: 0.1.0
+=======
+next-version: 1.2.7
+>>>>>>> 39643076bb148b4ea6ce1c0934fa25159688e440
 branches: {}
 ignore:
-  sha: []
+  sha:
+    - 2d267a40592319d3770461bab377f061f0f1b51b 
+    - 60727da151a42c5c566c5f30b80557d199f41dde
+    - 3433478c2429ce2ba838909b950c29061010d795
+    - 849dbf553330ed6326e07e393a707fc666b047e8
