@@ -1,4 +1,7 @@
 next-version: 1.2.7
 branches: {}
 ignore:
-  sha: []
+  sha: 
+    - 60727da151a42c5c566c5f30b80557d199f41dde
+    - 3433478c2429ce2ba838909b950c29061010d795
+    - 849dbf553330ed6326e07e393a707fc666b047e8
