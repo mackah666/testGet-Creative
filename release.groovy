@@ -6,7 +6,7 @@ deploymentPipeline {
    githubAndroidAppName = "cbeebies-get-creative-app"
    picknmixVersionAndroid = "develop"
    picknmixVersionIOS = "develop"
-   appVersionName = "1.3.0"
+   appVersionName = "1.2.7"
    appVersionCode=40
    releaseCandidateInt = "2"
 
